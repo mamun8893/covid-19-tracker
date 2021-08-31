@@ -29,7 +29,7 @@ const displayData = (data, countryName) => {
         loading.style.display = "none";
     } else if (Array.isArray(data)) {
         message.innerText = `Result: ${latestData.Country}`;
-        message.style.color = "green";
+        message.style.color = "yellow";
         searchResult.innerHTML = `
     <div class="item">
          <h4>Country: ${latestData.Country}</h4>
