@@ -34,6 +34,14 @@
             margin: auto;
             margin-bottom: 20px;
         }
+        
+        #loading {
+            display: none;
+        }
+        
+        p {
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -47,8 +55,14 @@
                     <button class=" btn btn-success" type="button" id="search-btn">Search</button>
                 </div>
             </div>
+            <div id="loading" class="text-center">
+                <div class="spinner-border text-info" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
             <div class="message text-center">
-                <p id="message" class="text-white">Please Enter Your Conutry Name</p>
+                <p id="message">Enter your Contry name see covid result</p>
             </div>
             <div id="covid-result" class="text-center">
 
